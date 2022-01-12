@@ -9,6 +9,8 @@ import Foundation
 
 class MasterDetailData:Decodable {
     var topNews:[TopNewsData]
+    var technicalAnalysis:[TopNewsData]
+    var specialReport:[TopNewsData]
 }
 class TopNewsData:Decodable {
     var title:String?
@@ -40,9 +42,9 @@ class TopNewsData:Decodable {
         var descriptionShort: String?
         var photo:String?
     }
-    var instruments:[String?]
-    var tags:[String?]
-    var categories:[String?]
+    var instruments:[String]?
+    var tags:[String]?
+    var categories:[String]?
     var displayTimestamp:Int?
     var lastUpdatedTimestamp:Int?
 }

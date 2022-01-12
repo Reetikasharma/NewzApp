@@ -24,7 +24,25 @@
 		4969B6F8278C0CFD005D3E8A /* MasterQueryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4969B6F7278C0CFD005D3E8A /* MasterQueryTest.swift */; };
 		4969B6FA278C1BCF005D3E8A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4969B6F9278C1BCF005D3E8A /* DetailViewController.swift */; };
 		4969B6FD278C1D79005D3E8A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4969B6FC278C1D79005D3E8A /* Router.swift */; };
-		4969B6FF278C4752005D3E8A /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4969B6FE278C4752005D3E8A /* Observable.swift */; };
+		499AFAD8278ED153003C65FA /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AFAD7278ED153003C65FA /* WebViewController.swift */; };
+		499AFADD278EDEEF003C65FA /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AFADC278EDEEF003C65FA /* HeaderTableViewCell.swift */; };
+		499AFAF2278EE363003C65FA /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 499AFAE1278EE363003C65FA /* Roboto-Thin.ttf */; };
+		499AFAF3278EE363003C65FA /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 499AFAE2278EE363003C65FA /* Roboto-Italic.ttf */; };
+		499AFAF4278EE363003C65FA /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 499AFAE3278EE363003C65FA /* Poppins-Black.ttf */; };
+		499AFAF5278EE363003C65FA /* HankRnd-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 499AFAE4278EE363003C65FA /* HankRnd-Regular.ttf */; };
+		499AFAF6278EE363003C65FA /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 499AFAE5278EE363003C65FA /* Roboto-MediumItalic.ttf */; };
+		499AFAF7278EE363003C65FA /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 499AFAE6278EE363003C65FA /* Roboto-BoldItalic.ttf */; };
+		499AFAF8278EE363003C65FA /* HankRnd-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 499AFAE7278EE363003C65FA /* HankRnd-Light.ttf */; };
+		499AFAF9278EE363003C65FA /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 499AFAE8278EE363003C65FA /* Roboto-Black.ttf */; };
+		499AFAFA278EE363003C65FA /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 499AFAE9278EE363003C65FA /* Roboto-Light.ttf */; };
+		499AFAFB278EE363003C65FA /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 499AFAEA278EE363003C65FA /* Roboto-Medium.ttf */; };
+		499AFAFC278EE363003C65FA /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 499AFAEB278EE363003C65FA /* Roboto-ThinItalic.ttf */; };
+		499AFAFD278EE363003C65FA /* HankRnd-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 499AFAEC278EE363003C65FA /* HankRnd-Bold.ttf */; };
+		499AFAFE278EE363003C65FA /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 499AFAED278EE363003C65FA /* Roboto-BlackItalic.ttf */; };
+		499AFAFF278EE363003C65FA /* HankRnd-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 499AFAEE278EE363003C65FA /* HankRnd-Black.ttf */; };
+		499AFB00278EE363003C65FA /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 499AFAEF278EE363003C65FA /* Roboto-LightItalic.ttf */; };
+		499AFB01278EE363003C65FA /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 499AFAF0278EE363003C65FA /* Roboto-Regular.ttf */; };
+		499AFB02278EE363003C65FA /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 499AFAF1278EE363003C65FA /* Roboto-Bold.ttf */; };
 		98ADFB36454B627A2411D591 /* Pods_DemoTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6862DE4C1E129B3FEAC16083 /* Pods_DemoTestTests.framework */; };
 		B27165B69A614ADF9B3B29F0 /* Pods_DemoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AD2D790289049FD045BBEB /* Pods_DemoTest.framework */; };
 		C85E57137B2A232980DF76B2 /* Pods_DemoTest_DemoTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07BFE366E3533B551A46810 /* Pods_DemoTest_DemoTestUITests.framework */; };
@@ -72,7 +90,25 @@
 		4969B6F7278C0CFD005D3E8A /* MasterQueryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterQueryTest.swift; sourceTree = "<group>"; };
 		4969B6F9278C1BCF005D3E8A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		4969B6FC278C1D79005D3E8A /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		4969B6FE278C4752005D3E8A /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		499AFAD7278ED153003C65FA /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		499AFADC278EDEEF003C65FA /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		499AFAE1278EE363003C65FA /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		499AFAE2278EE363003C65FA /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		499AFAE3278EE363003C65FA /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		499AFAE4278EE363003C65FA /* HankRnd-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HankRnd-Regular.ttf"; sourceTree = "<group>"; };
+		499AFAE5278EE363003C65FA /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		499AFAE6278EE363003C65FA /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		499AFAE7278EE363003C65FA /* HankRnd-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HankRnd-Light.ttf"; sourceTree = "<group>"; };
+		499AFAE8278EE363003C65FA /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		499AFAE9278EE363003C65FA /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		499AFAEA278EE363003C65FA /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		499AFAEB278EE363003C65FA /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		499AFAEC278EE363003C65FA /* HankRnd-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HankRnd-Bold.ttf"; sourceTree = "<group>"; };
+		499AFAED278EE363003C65FA /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		499AFAEE278EE363003C65FA /* HankRnd-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HankRnd-Black.ttf"; sourceTree = "<group>"; };
+		499AFAEF278EE363003C65FA /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		499AFAF0278EE363003C65FA /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		499AFAF1278EE363003C65FA /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		49CF6D5A26D6D3C20029DE72 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		49CF6D5E26D6D4310029DE72 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		6862DE4C1E129B3FEAC16083 /* Pods_DemoTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,6 +222,7 @@
 			children = (
 				4969B6F1278BED73005D3E8A /* MasterTableViewCell.swift */,
 				4969B6F3278BEE69005D3E8A /* MaterDetailData.swift */,
+				499AFADC278EDEEF003C65FA /* HeaderTableViewCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -195,6 +232,7 @@
 			children = (
 				4969B6EF278BEC97005D3E8A /* MasterViewController.swift */,
 				4969B6F9278C1BCF005D3E8A /* DetailViewController.swift */,
+				499AFAD7278ED153003C65FA /* WebViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -230,7 +268,6 @@
 			isa = PBXGroup;
 			children = (
 				4953E8E326D3FCB200348BCF /* Constants.swift */,
-				4969B6FE278C4752005D3E8A /* Observable.swift */,
 			);
 			path = GlobalFiles;
 			sourceTree = "<group>";
@@ -246,6 +283,23 @@
 		49CF6D5826D6D3870029DE72 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				499AFAEE278EE363003C65FA /* HankRnd-Black.ttf */,
+				499AFAEC278EE363003C65FA /* HankRnd-Bold.ttf */,
+				499AFAE7278EE363003C65FA /* HankRnd-Light.ttf */,
+				499AFAE4278EE363003C65FA /* HankRnd-Regular.ttf */,
+				499AFAE3278EE363003C65FA /* Poppins-Black.ttf */,
+				499AFAE8278EE363003C65FA /* Roboto-Black.ttf */,
+				499AFAED278EE363003C65FA /* Roboto-BlackItalic.ttf */,
+				499AFAF1278EE363003C65FA /* Roboto-Bold.ttf */,
+				499AFAE6278EE363003C65FA /* Roboto-BoldItalic.ttf */,
+				499AFAE2278EE363003C65FA /* Roboto-Italic.ttf */,
+				499AFAE9278EE363003C65FA /* Roboto-Light.ttf */,
+				499AFAEF278EE363003C65FA /* Roboto-LightItalic.ttf */,
+				499AFAEA278EE363003C65FA /* Roboto-Medium.ttf */,
+				499AFAE5278EE363003C65FA /* Roboto-MediumItalic.ttf */,
+				499AFAF0278EE363003C65FA /* Roboto-Regular.ttf */,
+				499AFAE1278EE363003C65FA /* Roboto-Thin.ttf */,
+				499AFAEB278EE363003C65FA /* Roboto-ThinItalic.ttf */,
 				49CF6D5A26D6D3C20029DE72 /* Poppins-SemiBold.ttf */,
 				49CF6D5E26D6D4310029DE72 /* Poppins-Regular.ttf */,
 			);
@@ -387,9 +441,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				499AFAFB278EE363003C65FA /* Roboto-Medium.ttf in Resources */,
+				499AFAF7278EE363003C65FA /* Roboto-BoldItalic.ttf in Resources */,
+				499AFB02278EE363003C65FA /* Roboto-Bold.ttf in Resources */,
+				499AFAF4278EE363003C65FA /* Poppins-Black.ttf in Resources */,
+				499AFAFD278EE363003C65FA /* HankRnd-Bold.ttf in Resources */,
+				499AFAFA278EE363003C65FA /* Roboto-Light.ttf in Resources */,
+				499AFAF8278EE363003C65FA /* HankRnd-Light.ttf in Resources */,
+				499AFAF2278EE363003C65FA /* Roboto-Thin.ttf in Resources */,
+				499AFAFE278EE363003C65FA /* Roboto-BlackItalic.ttf in Resources */,
 				4953E89A26D3ED4200348BCF /* LaunchScreen.storyboard in Resources */,
+				499AFAFF278EE363003C65FA /* HankRnd-Black.ttf in Resources */,
+				499AFAF9278EE363003C65FA /* Roboto-Black.ttf in Resources */,
+				499AFAF3278EE363003C65FA /* Roboto-Italic.ttf in Resources */,
+				499AFAF6278EE363003C65FA /* Roboto-MediumItalic.ttf in Resources */,
+				499AFAFC278EE363003C65FA /* Roboto-ThinItalic.ttf in Resources */,
+				499AFB00278EE363003C65FA /* Roboto-LightItalic.ttf in Resources */,
+				499AFB01278EE363003C65FA /* Roboto-Regular.ttf in Resources */,
 				4953E89726D3ED4200348BCF /* Assets.xcassets in Resources */,
 				4953E89526D3ED4200348BCF /* Main.storyboard in Resources */,
+				499AFAF5278EE363003C65FA /* HankRnd-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,10 +588,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4969B6FF278C4752005D3E8A /* Observable.swift in Sources */,
 				4969B6FA278C1BCF005D3E8A /* DetailViewController.swift in Sources */,
+				499AFAD8278ED153003C65FA /* WebViewController.swift in Sources */,
 				4953E88E26D3ED4200348BCF /* AppDelegate.swift in Sources */,
 				4969B6FD278C1D79005D3E8A /* Router.swift in Sources */,
+				499AFADD278EDEEF003C65FA /* HeaderTableViewCell.swift in Sources */,
 				4953E89026D3ED4200348BCF /* SceneDelegate.swift in Sources */,
 				4969B6F6278BFFDB005D3E8A /* MasterViewModel.swift in Sources */,
 				4969B6F4278BEE69005D3E8A /* MaterDetailData.swift in Sources */,
@@ -706,6 +778,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z25VL9W9L6;
 				INFOPLIST_FILE = DemoTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -725,6 +798,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z25VL9W9L6;
 				INFOPLIST_FILE = DemoTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -744,6 +818,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z25VL9W9L6;
 				INFOPLIST_FILE = DemoTestTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -766,6 +841,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z25VL9W9L6;
 				INFOPLIST_FILE = DemoTestTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -787,6 +863,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z25VL9W9L6;
 				INFOPLIST_FILE = DemoTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -807,6 +884,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z25VL9W9L6;
 				INFOPLIST_FILE = DemoTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
