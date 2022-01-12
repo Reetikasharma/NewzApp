@@ -49,7 +49,9 @@ class MasterViewController: UIViewController {
                     self?.topNewsData = topNewsdata.topNews
                     self?.technicalAnalysis = topNewsdata.technicalAnalysis
                     self?.specialReport = topNewsdata.specialReport
-                    self?.tableView.reloadData()
+                    DispatchQueue.main.async {
+                        self?.tableView.reloadData()
+                    }
                 }
             case .failure(let error):
                 print(error)

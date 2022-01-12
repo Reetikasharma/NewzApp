@@ -28,7 +28,8 @@ class MasterTableViewCell: UITableViewCell {
         lblDescription.text = topNewsData.title
         self.imgView.sd_imageIndicator = SDWebImageActivityIndicator.gray
         if let image = topNewsData.headlineImageUrl {
-            self.imgView.sd_setImage(with: URL(string: image), placeholderImage: UIImage(named: "placeholder"))
+        self.imgView.sd_setImage(with: URL(string: image), placeholderImage: UIImage(named: "placeholder"))
+          
         }
     }
 

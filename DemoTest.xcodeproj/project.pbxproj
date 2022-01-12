@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,7 +15,6 @@
 		4953E8A526D3ED4200348BCF /* DemoTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4953E8A426D3ED4200348BCF /* DemoTestTests.swift */; };
 		4953E8B026D3ED4200348BCF /* DemoTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4953E8AF26D3ED4200348BCF /* DemoTestUITests.swift */; };
 		4953E8E426D3FCB200348BCF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4953E8E326D3FCB200348BCF /* Constants.swift */; };
-		4953E8EA26D3FF1800348BCF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4953E8E926D3FF1800348BCF /* Alamofire */; };
 		4953E8EF26D3FF7000348BCF /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4953E8EE26D3FF7000348BCF /* NetworkService.swift */; };
 		4969B6F0278BEC97005D3E8A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4969B6EF278BEC97005D3E8A /* MasterViewController.swift */; };
 		4969B6F2278BED73005D3E8A /* MasterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4969B6F1278BED73005D3E8A /* MasterTableViewCell.swift */; };
@@ -125,7 +124,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4953E8EA26D3FF1800348BCF /* Alamofire in Frameworks */,
 				B27165B69A614ADF9B3B29F0 /* Pods_DemoTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,7 +344,6 @@
 			);
 			name = DemoTest;
 			packageProductDependencies = (
-				4953E8E926D3FF1800348BCF /* Alamofire */,
 			);
 			productName = DemoTest;
 			productReference = 4953E88A26D3ED4200348BCF /* DemoTest.app */;
@@ -423,7 +420,6 @@
 			);
 			mainGroup = 4953E88126D3ED4200348BCF;
 			packageReferences = (
-				4953E8E826D3FF1800348BCF /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 4953E88B26D3ED4200348BCF /* Products */;
 			projectDirPath = "";
@@ -939,25 +935,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		4953E8E826D3FF1800348BCF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.4.3;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		4953E8E926D3FF1800348BCF /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4953E8E826D3FF1800348BCF /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4953E88226D3ED4200348BCF /* Project object */;
 }

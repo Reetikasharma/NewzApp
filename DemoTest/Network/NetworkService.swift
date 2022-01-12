@@ -6,19 +6,23 @@
 //
 
 import Foundation
-import Alamofire
 import UIKit
+
 class NetworkService {
     
     //MARK: FUNCTIONS
-    func sendRequest(request:URLRequest,completion:@escaping(Result<Data?, Error>)->Void){
-        Alamofire.AF.request(request).responseJSON { (response) in
-            switch response.result {
-            case .success( _):
-                completion(Result.success(response.data))
-            case .failure(let error):
-                completion(Result.failure(error))
+    func sendRequest(request:String,completion:@escaping(Result<Data?, Error>)->Void) {
+        let url = NSURL(string: getDataUrl)
+        var downloadTask = URLRequest(url: (url as URL?)!, cachePolicy: URLRequest.CachePolicy.reloadIgnoringCacheData, timeoutInterval: 20)
+        downloadTask.httpMethod = request
+        URLSession.shared.dataTask(with: downloadTask, completionHandler: {(data, response, error) -> Void in
+            if error != nil{
+                completion(Result.failure(error?.localizedDescription as! Error))
+            } else {
+                completion(Result.success(data))
             }
-        }
+            
+        }).resume()
     }
 }
+
