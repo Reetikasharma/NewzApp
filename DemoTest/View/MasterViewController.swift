@@ -127,11 +127,12 @@ extension MasterViewController:UITableViewDelegate,UITableViewDataSource {
         
         switch(indexPath.section) {
         case 0:
-            if  let url =  technicalAnalysis[indexPath.row].url,let title = technicalAnalysis[indexPath.row].title,let description =  technicalAnalysis[indexPath.row].description,let img = technicalAnalysis[indexPath.row].headlineImageUrl {
+            if  let url = topNewsData[indexPath.row].url,let title = topNewsData[indexPath.row].title,let description =  topNewsData[indexPath.row].description,let img = topNewsData[indexPath.row].headlineImageUrl {
                 router.navigateToDetail(controller: self, url: url,title:title, description: description, image: img)
+                    
             }
         case 1:
-            if  let url =  topNewsData[indexPath.row].url,let title = topNewsData[indexPath.row].title,let description =  topNewsData[indexPath.row].description,let img = topNewsData[indexPath.row].headlineImageUrl {
+            if  let url = technicalAnalysis[indexPath.row].url,let title = technicalAnalysis[indexPath.row].title,let description =  technicalAnalysis[indexPath.row].description,let img = technicalAnalysis[indexPath.row].headlineImageUrl {
                 router.navigateToDetail(controller: self, url: url,title:title, description: description, image: img)
             }
         case 2:
